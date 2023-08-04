@@ -1,0 +1,54 @@
+.TextFieldConteiner{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+  
+
+.submitButton {
+    height: 50%;
+    align-self: center;
+}
+
+.todoConteiner {
+    padding: 2%;
+}
+
+.dateItem {
+  justify-content: space-evenly
+}
+
+.toolbar {
+    justify-content: space-between;
+    display: flex;
+}
+
+.navButtons {
+    text-decoration:none;
+    color: aliceblue;
+}
+
+.tittle{
+    text-align: left;
+    color: #009688;
+    font-weight: bold;
+}
+
+.editMoal{
+    display: flex;
+    flex-direction: column;
+}
+
+body.darkmode{
+    background-color: rgb(29, 29, 66);
+    color: white;
+}
+/* margins */
+.mt-1 {
+    margin-top: 1rem !important;
+}
+
+.mt-5 {
+    margin-top: 5rem !important;
+}
